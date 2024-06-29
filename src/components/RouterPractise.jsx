@@ -9,7 +9,7 @@ const RouterPractise = () => {
 const router = createBrowserRouter([
     {
         path:'/',
-        element:<><Home/></>
+        element:<><Navbar/><Home/></>
     },
     {
         path:'/about',
