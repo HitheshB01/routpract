@@ -4,21 +4,25 @@ import Home from './Home'
 import About from './About'
 import Service from './Service'
 import Navbar from './Navbar'
+import ErrorPage from './ErrorPage'
+import Contacts from './Contacts'
+import Forms from './Forms'
 
 const RouterPractise = () => {
 const router = createBrowserRouter([
     {
         path:'/',
-        element:<><Navbar/><Home/></>
+        element:<Forms/>,
+        errorElement:<ErrorPage/>,
+        children: [
+          {
+            path: "contacts/:contactId",
+            element: <Contacts />,
+          },
+        ]
+
     },
-    {
-        path:'/about',
-        element:<><Navbar/><About/></>
-    },
-    {
-        path:'/service',
-        element:<><Navbar/><Service/></>
-    }
+  
 ])
   return (
     <div>
