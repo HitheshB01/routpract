@@ -3,17 +3,22 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import RouterPractise from './components/RouterPractise'
+import ProductPage from './components/ProductPage'
+import Layout from './Rcomponents/Layout'
+import RoutingPage from './Rcomponents/RoutingPage'
 
 const App = () => {
 
   return (
     <div>
+      <RoutingPage/>
+      {/* <ProductPage/> */}
       {/* <Contacts/> */}
       {/* <Navbar/> */}
             {/* <RouterProvider router={router}/> */}
 
       {/* <Forms/> */}
-      <RouterPractise/>
+      {/* <RouterPractise/> */}
       {/* <Footer/> */}
       {/* <Accordion/> */}
     </div>

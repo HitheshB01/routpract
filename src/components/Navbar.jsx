@@ -10,19 +10,19 @@ const Navbar = () => {
         </div>
         <div className="space-x-4">
           <NavLink to="/"   className={( {isActive }) =>
-               isActive ? "p-2 bg-cyan-500" : " text-white"
+               isActive ? "p-2 bg-cyan-500  text-amber-400 rounded-md" : " text-white"
             }>Home</NavLink>
           <NavLink
             to="/about"
             
             className={( {isActive }) =>
-               isActive ? "p-2 bg-cyan-500 text-amber-400" : " text-white"
+               isActive ? "p-2 bg-cyan-500 text-amber-400 rounded-md" : " text-white"
             }
           >
             about
           </NavLink>
           <NavLink to="/contacts"   className={( {isActive }) =>
-               isActive ? "p-2 bg-cyan-500" : " text-white"
+               isActive ? "p-2 bg-cyan-500 text-amber-400 rounded-md" : " text-white"
             }>Contact</NavLink>
         </div>
       </div>

@@ -19,11 +19,12 @@ const RouterPractise = () => {
           <Home />
           <Footer />
         </>
+
       ),
       errorElement: <ErrorPage />,
     },
     {
-      path: "/about",
+      path: "about",
       element: (
         <>
           <Navbar />
@@ -33,7 +34,7 @@ const RouterPractise = () => {
       ),
     },
     {
-      path: "/contacts",
+      path: "contacts",
       element: (
         <>
           <Navbar />
