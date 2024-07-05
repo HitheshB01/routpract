@@ -6,12 +6,14 @@ import RouterPractise from './components/RouterPractise'
 import ProductPage from './components/ProductPage'
 import Layout from './Rcomponents/Layout'
 import RoutingPage from './Rcomponents/RoutingPage'
+import QuizApp from './qcomponent/QuizApp'
 
 const App = () => {
 
   return (
     <div>
-      <RoutingPage/>
+      <QuizApp/>
+      {/* <RoutingPage/> */}
       {/* <ProductPage/> */}
       {/* <Contacts/> */}
       {/* <Navbar/> */}
