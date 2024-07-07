@@ -7,12 +7,14 @@ import ProductPage from './components/ProductPage'
 import Layout from './Rcomponents/Layout'
 import RoutingPage from './Rcomponents/RoutingPage'
 import QuizApp from './qcomponent/QuizApp'
+import Accordion from './acomponents/Accordion'
+import AccordionList from './acomponents/AccordionList'
 
 const App = () => {
 
   return (
     <div>
-      <QuizApp/>
+      {/* <QuizApp/> */}
       {/* <RoutingPage/> */}
       {/* <ProductPage/> */}
       {/* <Contacts/> */}
@@ -22,7 +24,7 @@ const App = () => {
       {/* <Forms/> */}
       {/* <RouterPractise/> */}
       {/* <Footer/> */}
-      {/* <Accordion/> */}
+      <AccordionList/>
     </div>
   )
 }
