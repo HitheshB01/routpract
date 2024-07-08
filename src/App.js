@@ -9,6 +9,7 @@ import RoutingPage from './Rcomponents/RoutingPage'
 import QuizApp from './qcomponent/QuizApp'
 import Accordion from './acomponents/Accordion'
 import AccordionList from './acomponents/AccordionList'
+import AccordionPractise from './acomponents/AccordionPractise'
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
       {/* <Contacts/> */}
       {/* <Navbar/> */}
             {/* <RouterProvider router={router}/> */}
+            <AccordionPractise/>
 
       {/* <Forms/> */}
       {/* <RouterPractise/> */}
