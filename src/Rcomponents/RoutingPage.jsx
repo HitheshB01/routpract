@@ -25,7 +25,7 @@ const RoutingPage = () => {
                     element:<Dashboard/>,
                     children:[
                         {
-                            path:'/dashboard/settings',
+                            path:'/dashboard',
                             element:<Settings/>  
                         },
                         {

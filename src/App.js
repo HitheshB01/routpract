@@ -16,17 +16,17 @@ const App = () => {
   return (
     <div>
       {/* <QuizApp/> */}
-      {/* <RoutingPage/> */}
+      <RoutingPage/>
       {/* <ProductPage/> */}
       {/* <Contacts/> */}
       {/* <Navbar/> */}
             {/* <RouterProvider router={router}/> */}
-            <AccordionPractise/>
+            {/* <AccordionPractise/> */}
 
       {/* <Forms/> */}
       {/* <RouterPractise/> */}
       {/* <Footer/> */}
-      <AccordionList/>
+      {/* <AccordionList/> */}
     </div>
   )
 }

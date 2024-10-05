@@ -9,28 +9,34 @@ const Layout = () => {
           <li>
             <NavLink
               to="/"
-              className={({ isActive }) => 
+              className={({ isActive }) =>
                 isActive ? "font-bold" : "text-white"
               }
 
-            // className={( {isActive }) =>
-            //     isActive ? "p-2 bg-cyan-500  text-amber-400 rounded-md" : " text-white"
-            //  }
+              // className={( {isActive }) =>
+              //     isActive ? "p-2 bg-cyan-500  text-amber-400 rounded-md" : " text-white"
+              //  }
             >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about" className={({ isActive }) => 
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
                 isActive ? "font-bold" : "text-white"
-              }>
+              }
+            >
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to="/dashboard"className={({ isActive }) => 
+            <NavLink
+              to="/dashboard"
+              className={({ isActive }) =>
                 isActive ? "font-bold" : "text-white"
-              }>
+              }
+            >
               Dashboard
             </NavLink>
           </li>
